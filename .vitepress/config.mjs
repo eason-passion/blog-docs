@@ -3,7 +3,8 @@ import {set_sidebar} from "./utils/auto_siderbar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/知识库选中.png" }]],
+  base: '/blog-docs',
+  head: [["link", { rel: "icon", href: "/blog-docs/知识库选中.png" }]],
   title: "Eason的编程日记",
   description: "A VitePress Site",
   themeConfig: {
@@ -25,15 +26,6 @@ export default defineConfig({
     ],
 
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
     sidebar: {
       "/backend/Redis": set_sidebar("/backend/Redis"),
       "/backend/mysql": set_sidebar("/backend/mysql"),
