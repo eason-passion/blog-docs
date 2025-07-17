@@ -15,9 +15,9 @@ hero:
       link: /api-examples
 
 features:
-  - title: 学习路线
+  - title: 九股文
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 八股文合集
+  - title: 学习路线
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 数据结构与算法
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
